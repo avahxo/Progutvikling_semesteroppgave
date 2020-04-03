@@ -1,4 +1,9 @@
 package Validation;
+//Fiks validering for pris (alle tall fra 0-99999)
+//
+//Fiks validering for varenavn (kan inneholde tall, mellomrom, store og små bokstaver og æøå)
+//
+//Fiks validering for varenummer (8 siffer, kun tall 0-9)
 
 public class ProductValidation {
     public static boolean validateName(String name){

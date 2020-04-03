@@ -7,7 +7,8 @@ package Validation;
 
 public class ProductValidation {
     public static boolean validateName(String name){
-        return !(name.isBlank() || name.isEmpty()) && name.matches("^([ÅZÆØ][a-zæøå]*[- ]?)*");
+        //return !(name.isBlank() || name.isEmpty()) && name.matches("^([ÅZÆØ][a-zæøå]*[- ]?)*");
+        return true;
     }
 
     public static boolean validateBrandName(String brandName){
